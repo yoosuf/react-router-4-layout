@@ -9,13 +9,11 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <span>
-          <Layout>
-            <Route exact path="/" component={Home}/>
-            <Route path="/explore" component={Explore}/>
-            <Route path="/profile" component={Profile}/>
-          </Layout>
-        </span>
+        <Layout>
+          <Route exact path="/" component={Home}/>
+          <Route path="/explore" component={Explore}/>
+          <Route path="/profile" component={Profile}/>
+        </Layout>
       </Router>
     );
   }
