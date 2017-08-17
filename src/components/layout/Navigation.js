@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 
-class Navigation extends Component {
+export default class Navigation extends Component {
   render() {
     return (
       <div className="nav-bar" role="navigation">
@@ -14,7 +14,5 @@ class Navigation extends Component {
     );
   }
 }
-
-export default Navigation;
 
 

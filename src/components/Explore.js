@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
-
-
-class Explore extends Component {
+export default class Explore extends Component {
   render() {
     return (
       <div className="react-root">
@@ -11,5 +9,3 @@ class Explore extends Component {
     );
   }
 }
-
-export default Explore;

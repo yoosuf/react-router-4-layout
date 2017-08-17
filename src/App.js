@@ -5,7 +5,7 @@ import Home from './components/Home'
 import Explore from './components/Explore'
 import Profile from './components/Profile'
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <Router>
@@ -18,5 +18,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
